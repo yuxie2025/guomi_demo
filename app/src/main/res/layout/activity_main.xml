@@ -8,25 +8,38 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="请输入地址例如: https://gmssl.trustauth.cn/"
+        android:singleLine="true"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
     <Button
         android:id="@+id/tv_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:text="Test" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="访问国密网站" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp">
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
 
         <TextView
             android:id="@+id/tv_message"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="#eeeeee"
-            android:minHeight="500dp"
+            android:minHeight="800dp"
             android:padding="10dp"
             android:text=""
             android:textColor="@android:color/holo_green_light"
