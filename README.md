@@ -2,7 +2,7 @@
 
 国密https网站访问，安卓版，居于gm-jsse，HttpsURLConnection协议访问国密网站
 
-##使用：
+## 使用案例：
 ```
 //本地测试链接  SM2单证书
 public static final String nativeUrl = "https://192.168.10.35:9400/index.html";
@@ -29,10 +29,9 @@ HttpsURLConnectionUtils.get(this, url, new RequestCallBack() {
      }
 });
 ```
-演示demo下载地址:
-
 [演示demo下载地址](https://github.com/yuxie2025/guomi_demo/blob/main/GmDemo_V1.0_20210803_1757.apk) 
 
+或扫码下载演示demo:
 ![下载链接](https://github.com/yuxie2025/guomi_demo/blob/main/download_qr.png)
 
 ![访问日志](https://github.com/yuxie2025/guomi_demo/blob/main/log.png)
