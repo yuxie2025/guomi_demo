@@ -1,6 +1,7 @@
 # guomi_demo 国密Demo
 
-国密https网站访问，安卓版，居于gm-jsse，HttpsURLConnection协议访问国密网站
+开源国密通信纯 Java JSSE 实现，国密https网站访问，安卓版，居于gm-jsse，
+HttpsURLConnection协议访问国密网站，SM2，SM3，SM4
 
 ## 使用案例：
 ```
