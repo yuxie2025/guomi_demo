@@ -31,9 +31,8 @@ HttpsURLConnectionUtils.get(this, url, new RequestCallBack() {
 ```
 演示demo下载地址:
 
-[抖音无水印](https://github.com/yuxie2025/guomi_demo/blob/main/GmDemo_V1.0_20210803_1757.apk) 
+[演示demo下载地址](https://github.com/yuxie2025/guomi_demo/blob/main/GmDemo_V1.0_20210803_1757.apk) 
 
-下载地址:
 ![下载链接](https://github.com/yuxie2025/guomi_demo/blob/main/download_qr.png)
 
 ![访问日志](https://github.com/yuxie2025/guomi_demo/blob/main/log.png)
