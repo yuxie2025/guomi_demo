@@ -38,7 +38,7 @@ public class HttpsURLConnectionUtils {
      */
     public static final String nativeUrl = "https://192.168.10.35:9400/index.html";
     /**
-     * 沃通 RAR和SM2双证书
+     * 沃通 RSA和SM2双证书
      */
     public static final String ovsslUrl = "https://sm2test.ovssl.cn/";
     /**
@@ -46,7 +46,7 @@ public class HttpsURLConnectionUtils {
      */
     public static final String bocUrl = "https://ebssec.boc.cn/";
     /**
-     * GDCA 测试链接 RAR和SM2双证书
+     * GDCA 测试链接 RSA和SM2双证书
      */
     public static final String gdcaUrl = "https://gmssl.trustauth.cn/";
 
